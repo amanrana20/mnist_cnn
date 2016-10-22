@@ -1,5 +1,7 @@
 # Simple CNN for the MNIST Dataset
 import numpy
+from keras import backend as K
+K.set_image_dim_ordering('th')
 from keras.datasets import mnist
 from keras.models import Sequential
 from keras.layers import Dense
