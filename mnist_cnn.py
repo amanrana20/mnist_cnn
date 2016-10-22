@@ -48,7 +48,7 @@ def baseline_model():
 	model.compile(loss=LOSS, optimizer=OPTIMIZER, metrics=['accuracy'])
 	return model
 
-EPOCH = 2
+EPOCH = 30
 BATCH_SIZE = 200
 
 # build the model
